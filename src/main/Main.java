@@ -5,7 +5,7 @@ import soukoban.Soukoban;
 public class Main {
 
 	public static void main(String[] args) {
-		PlayGame pg = new PlayGame();
+		PlayGamePrompt pg = new PlayGamePrompt();
 		int[][] stage = {
 				{ 1, 1, 1, 1, 1, 1, 1, 1 },
 				{ 1, 1, 1, 0, 0, 0, 1, 1 },
